@@ -1,0 +1,183 @@
+/* Config site global */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #243449;
+}
+
+/* Style index.html*/
+
+li, a{
+	font-weight: 573;
+	font-size: 18px;
+	color: #FFFFFF;
+	
+}
+
+
+body{
+	background: linear-gradient(red);
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 12%;
+}
+
+
+.avatar{
+	max-width: 100%;
+	width: 7%;
+	height: auto;
+	border-radius: 75% 75% 70% 70%;
+	cursor: pointer;
+}
+
+.navbar{
+	list-style: none;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0px 37px;
+}
+
+.navbar li a {
+	transition: all 0.5s ease 0s;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	padding: 9px 25px;
+	border: none;
+	border-radius: 800px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: #0088a9;
+	transition: all 0.8s ease 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button{
+	font-weight: 800;
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+}
+
+button:hover{
+	background-color: #FFFFFF;
+	color: #0088a9;
+	transition: all 0.2s ease 2;
+} */
+
+
+
+/*
+
+nav.gui-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+nav.gui-nav ul li.btn a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font: italic small-caps bold 16px/2 cursive;
+	font-size: 35px;
+	text-align: center;
+	margin: 30px;
+}
+
+
+nav.gui-nav ul li.btn:hover a{
+	color: #8138F9;
+	transition: all 0.5s ease-out;
+}
+*/
+
+
+
+/*p.welcome{
+	color: #8138F9;
+	background-color: #FFFFFF;
+}
+
+
+
+h1.headline{
+	color: #a15dfa;
+	font-size: 124px;
+	text-align: center;
+	border: solid;
+	border-color: #FFFFFF;
+	
+}
+*/
