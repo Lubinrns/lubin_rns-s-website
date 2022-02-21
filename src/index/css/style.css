@@ -10,49 +10,54 @@
 	background-color: #243449;
 }
 
-/* Style index.html*/
-
-li, a{
-	font-weight: 573;
-	font-size: 18px;
-	color: #FFFFFF;
-	
-}
-
-
-body{
-	background: linear-gradient(red);
-}
-
+/* Body, Header, Footer*/
 
 header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em 12%;
+	
 }
 
+
+
+/* Navigation BAR */
+
+li, a{
+	font-weight: 573;
+	font-size: 18px;
+	color: #FFFFFF;
+}
 
 .avatar{
 	max-width: 100%;
 	width: 7%;
 	height: auto;
-	border-radius: 75% 75% 70% 70%;
 	cursor: pointer;
 }
 
-.navbar{
+.navbar ul{
+	display: flex;
 	list-style: none;
 }
 
+.navbar ul li{
+	padding: 25px;
+}
+
 .navbar li {
-	display: inline-block;
+	display: inline;
 	padding: 0px 37px;
 }
 
 .navbar li a {
 	transition: all 0.5s ease 0s;
 	text-decoration: none;
+	color: white;
+	font-weight: 573;
+	font-size: 18px;
+
 }
 
 .navbar li a:hover {
@@ -62,7 +67,70 @@ header{
 	cursor: pointer;
 	background-color: #FFFFFF;
 	color: #0088a9;
-	transition: all 0.8s ease 2;
+	transition: all 0.8s ease 4;
+}
+
+
+/* Animation typing */
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 75px;
+  font-weight: 200;
+
+}
+.wrapper .dynamic-txts{
+  margin-left: 40px;
+  height: 82px;
+  line-height: 75px;
+  overflow: hidden;
+
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 65px;
+  font-weight: 200;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #243449;
+  border-left: 3px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  35%, 45%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
 }
 
 
@@ -94,30 +162,7 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Style index.html*/
 
 
 
