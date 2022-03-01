@@ -22,7 +22,12 @@ header{
 
 
 
-/* Navigation BAR */
+
+/* Button DarkMode*/
+ 
+
+/* Nav igation BAR */
+
 
 li, a{
 	font-weight: 573;
@@ -55,7 +60,7 @@ li, a{
 	transition: all 0.5s ease 0s;
 	text-decoration: none;
 	color: white;
-	font-weight: 573;
+	font-weight: 593;
 	font-size: 18px;
 
 }
@@ -134,6 +139,42 @@ li, a{
 }
 
 
+/* Animation typing */
+
+
+.btn-explore{
+	cursor: pointer;
+	padding: 95px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-explore #btn{
+	font-size: 35px;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	border-radius: 40px;
+	background-color: white;
+	background-size: 5em;
+	color: #0088a9;
+}
+
+.sec{
+	position: relative;
+	padding: 100px;
+	background-color: #1c293a;
+}
+
+.sec h2{
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+
+.sec p{
+	font-size: 20px;
+}
 
 
 
