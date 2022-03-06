@@ -21,8 +21,6 @@ header{
 }
 
 
-
-
 /* Button DarkMode*/
  
 
@@ -48,7 +46,7 @@ li, a{
 }
 
 .navbar ul li{
-	padding: 25px;
+	padding: 45px;
 }
 
 .navbar li {
@@ -142,23 +140,7 @@ li, a{
 /* Animation typing */
 
 
-.btn-explore{
-	cursor: pointer;
-	padding: 95px;
-	display: flex;
-	justify-content: center;
-}
-
-.btn-explore #btn{
-	font-size: 35px;
-	text-decoration: none;
-	display: inline-block;
-	border: none;
-	border-radius: 40px;
-	background-color: white;
-	background-size: 5em;
-	color: #0088a9;
-}
+/* eeee*/
 
 .sec{
 	position: relative;
@@ -175,95 +157,3 @@ li, a{
 .sec p{
 	font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Style index.html*/
-
-
-
-/*button{
-	font-weight: 800;
-	padding: 9px 25px;
-	background-color: rgba(0,136,169,1);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3 ease 0s;
-}
-
-button:hover{
-	background-color: #FFFFFF;
-	color: #0088a9;
-	transition: all 0.2s ease 2;
-} */
-
-
-
-/*
-
-nav.gui-nav ul li.btn{
-	list-style-type: none;
-	display: inline-block;
-}
-
-
-nav.gui-nav ul li.btn a{
-	color: #FFFFFF;
-	text-decoration: none;
-	font: italic small-caps bold 16px/2 cursive;
-	font-size: 35px;
-	text-align: center;
-	margin: 30px;
-}
-
-
-nav.gui-nav ul li.btn:hover a{
-	color: #8138F9;
-	transition: all 0.5s ease-out;
-}
-*/
-
-
-
-/*p.welcome{
-	color: #8138F9;
-	background-color: #FFFFFF;
-}
-
-
-
-h1.headline{
-	color: #a15dfa;
-	font-size: 124px;
-	text-align: center;
-	border: solid;
-	border-color: #FFFFFF;
-	
-}
-*/

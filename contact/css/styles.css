@@ -14,8 +14,11 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em 12%;
+  position: fixed;
+  top: 0;
 	
 }
+
 
 html,body{
   display: grid;
@@ -24,11 +27,14 @@ html,body{
   place-items: center;
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
+
+
+/* Social Media Contactg page */
+
 .wrapper .button{
   display: inline-block;
   height: 60px;
   width: 60px;
-  /*float: left;*/
   margin: 0 5px;
   overflow: hidden;
   background: #fff;
@@ -38,7 +44,7 @@ html,body{
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover{
-  width: 200px;
+  width: 190px;
 }
 .wrapper .button .icon{
   display: inline-block;
@@ -49,9 +55,10 @@ html,body{
   box-sizing: border-box;
   line-height: 60px;
   transition: all 0.3s ease-out;
+  color: black;
 }
 .wrapper .button:nth-child(1):hover .icon{
-  background: #4267B2;
+  background: #5865F2;
 }
 .wrapper .button:nth-child(2):hover .icon{
   background: #1DA1F2;
@@ -60,7 +67,7 @@ html,body{
   background: #E1306C;
 }
 .wrapper .button:nth-child(4):hover .icon{
-  background: #333;
+  background: #171515;
 }
 .wrapper .button:nth-child(5):hover .icon{
   background: #ff0000;
@@ -96,8 +103,8 @@ html,body{
   color: #ff0000;
 }
 
-/* Nav igation BAR */
 
+/* Nav igation BAR */
 
 li, a{
 	font-weight: 800;
